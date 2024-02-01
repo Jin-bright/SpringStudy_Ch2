@@ -15,6 +15,7 @@ import org.springframework.validation.support.BindingAwareModelMap;
 
 public class MethodCall3 {
 	public static void main(String[] args) throws Exception{
+		//1. 요청할 때 제공된 값 - request.getParameterMap();
 		Map map = new HashMap();
 		map.put("year", "2021");
 		map.put("month", "10");
